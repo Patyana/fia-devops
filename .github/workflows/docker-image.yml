@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: patyana/app-net-lab:latest, patyana/app-net-lab:${{ github.run_number }}
+          tags: patyana/fia-devops:latest, patyana/fia-devops:${{ github.run_number }}
